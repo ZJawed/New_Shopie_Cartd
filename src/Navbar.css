@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+}
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media  (min-width: 900px) {
+    .cart {
+        position: relative;
+   left: 1700px;
+   bottom: 25px;
+   cursor: pointer;
+   position: relative;
+    top: -16px;
+cursor: pointer;
+    }
+    .span{
+        position: relative;
+        top: 22px;
+    cursor: pointer;
+    }
+    
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+
+  margin: auto;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  
+  
+}
+
+.cart{
+   
+   
+}
+
+
+.cart span:nth-child(1){
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+
+.cart span:nth-child(2){
+    padding: 0 3px;
+    background-color: red;
+font-weight: bo1x;
+border-radius: 5px;
+    color: white;
+}
+
+
+.span{
+   
+}
